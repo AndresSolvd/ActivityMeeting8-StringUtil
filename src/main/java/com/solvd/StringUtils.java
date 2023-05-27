@@ -3,7 +3,7 @@ package com.solvd;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Main {
+public class StringUtils {
     public static String decodeString(String input) {
         Pattern pattern = Pattern.compile("(\\d+)\\[([a-zA-Z]*)\\]");
         Matcher matcher = pattern.matcher(input);
